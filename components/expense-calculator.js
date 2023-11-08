@@ -19,7 +19,7 @@ class ExpenseCalculator extends HTMLElement {
 
       let delButton = document.createElement('td')
       delButton.className = 'delete__button'
-      delButton.innerHTML = `<img src="images/delete.png" alt="Delete icon" width="20">`
+      delButton.innerHTML = `<img src="components/images/delete.png" alt="Delete icon" width="22">`
       delButton.onclick = (e) => {
         newRow.remove()
       }
