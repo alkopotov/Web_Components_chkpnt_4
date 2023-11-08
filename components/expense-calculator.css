@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 80%;
+  min-width: 500px;
+  margin: auto;
+}
+
+.expense__form {
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.input__value {
+  width: 100px;
+  text-align: right;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 3px 0px;
+}
+
+.input__title {
+  font-family: 'Roboto', sans-serif;
+  width: 200px;
+  padding: 3px 0;
+  padding-left: 12px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+
+label {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1px;
+  gap: 2px;
+  text-align: center;
+}
+
+.submit__button {
+  border: none;
+  background-color: rgb(11, 57, 208);
+  padding: 8px 14px;
+  font-size: 12px;
+  color: rgb(237, 233, 233);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.expense__value {
+  text-align: right;
+}
+
+td {
+  padding: 2px 20px;
+  /* padding: 0 20px; */
+}
+
+table {
+  border-collapse: collapse;
+  font-family: 'Roboto', sans-serif;
+}
+
+.expenses__total {
+  text-align: right;
+}
+
+thead {
+  font-size: 18px;
+  background-color: gray;
+}
+
+th {
+  padding: 5px 15px;
+  font-weight: 400;
+  border: solid 1px white;
+  color: rgb(247, 243, 238);
+}
+
+tfoot {
+  background-color: gray;
+  color: white;
+  font-size: 18px;
+}
+
+tfoot > tr > td {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.delete__button {
+  padding: 0 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
